@@ -1,0 +1,38 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Check                                                                             0x0215       2
+Check_Pin_Last                                                                    0x0217       2
+_base_y                                                                           0x0219       4
+_lcd_x                                                                            0x021D       1
+_lcd_y                                                                            0x021E       1
+_lcd_maxx                                                                         0x021F       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+xy                                                                                R6,R7        2
+k                                                                                 R8,R9        2
+Temp_Pass_1                                                                       R10,R11      2
+Temp_Pass_2                                                                       R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+key_pad                                                                           0x000E1     74
+Beep                                                                              0x0012B     26
+LED_Light                                                                         0x00145     30
+Effect_name_Start                                                                 0x00163     31
+main                                                                              0x00182    179
+_lcd_write_nibble_G100                                                            0x00235     20
+_lcd_write_data                                                                   0x00249     12
+lcd_gotoxy                                                                        0x00255     17
+lcd_clear                                                                         0x00266     12
+lcd_putchar                                                                       0x00272     32
+lcd_puts                                                                          0x00292     17
+lcd_init                                                                          0x002A3     44
